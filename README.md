@@ -38,8 +38,6 @@ This project is an advanced chatbot application that combines the power of **Coh
 git clone https://github.com/nadimbrur/LangGraph-Powered-Multi-Threaded-Chatbot-with-Cohere-API.git
 cd LangGraph-Powered-Multi-Threaded-Chatbot-with-Cohere-API
 
-# Install dependencies
-pip install -r requirements.txt
 
 # Install dependencies
 pip install -r requirements.txt
