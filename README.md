@@ -51,23 +51,17 @@ streamlit run streamlit_frontend_database.py
 🧑‍💻 Usage
 
 Launch the app using streamlit run app.py
-
 Type in a message to begin chatting
-
 Each session uses a unique thread ID — allowing multiple parallel conversations
-
 Restarting the app will restore all prior chat history from SQLite
 
-# Run the app
-streamlit run streamlit_frontend_database.py
 
 
 📁 Project Structure
 ```bash
-├── app.py                    # Streamlit frontend
-├── langgraph_modules/        # LangGraph components & builders
-├── backend/                  # Chat logic, DB saver (SqliteSaver)
-├── utils/                    # Helper functions
+├── streamlit_frontend_database.py #Streamlit frontend
+├── langgraph_database_backend.py        # Backend
+├── chatbot.db          # Chat logic, DB saver (SqliteSaver)
 ├── requirements.txt
 └── README.md
 ```
