@@ -4,6 +4,7 @@ This project is an advanced chatbot application that combines the power of **Coh
 
 ---
 
+
 ### 🧠 Key Features
 
 - ⚡ **Powered by Cohere Command R+**
@@ -55,6 +56,10 @@ Type in a message to begin chatting
 Each session uses a unique thread ID — allowing multiple parallel conversations
 
 Restarting the app will restore all prior chat history from SQLite
+
+# Run the app
+streamlit run streamlit_frontend_database.py
+
 
 📁 Project Structure
 ```bash
