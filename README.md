@@ -35,8 +35,11 @@ This project is an advanced chatbot application that combines the power of **Coh
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/langgraph-multithread-chatbot.git
-cd langgraph-multithread-chatbot
+git clone https://github.com/nadimbrur/LangGraph-Powered-Multi-Threaded-Chatbot-with-Cohere-API.git
+cd LangGraph-Powered-Multi-Threaded-Chatbot-with-Cohere-API
+
+# Install dependencies
+pip install -r requirements.txt
 
 # Install dependencies
 pip install -r requirements.txt
@@ -45,7 +48,7 @@ pip install -r requirements.txt
 export COHERE_API_KEY="your-api-key-here"  # or use a .env file
 
 # Run the app
-streamlit run app.py
+streamlit run streamlit_frontend_database.py
 ```
 🧑‍💻 Usage
 
